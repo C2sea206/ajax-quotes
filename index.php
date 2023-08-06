@@ -29,7 +29,8 @@
   </head>
   <body>
     <h1>AJAX Quotes</h1>
-    <p>Click below to return a random quote</p>
+    <p>Below is where JavaScript code fetches random quotes from a server using AJAX requests and displays them on a webpage. It cycles through a set of fonts for each quote and adds a fade-in effect. The `getRandomQuote` function sends requests to 'random_quotes.php', displays the quote with changing fonts, and handles errors. The `displayRandomQuote` function initializes quote display and sets an interval for automatic refreshing every 5 seconds. The code ensures a dynamic and visually appealing presentation of random quotes on the webpage. 
+    </p>
   
     <div id="quoteContainer">Quotes go here</div>
     <script>
